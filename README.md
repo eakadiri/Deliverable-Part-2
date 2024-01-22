@@ -31,8 +31,8 @@ How would you implement tests for these features?
 
 ## 3. Overall Experience
 Please provide an overall reflection of your experience. How did you approach this task? What challenge(s) did you encounter? Is there anything you would be curious to explore in the future, if you had more time?
-> [Your Answer here]
+> The worst part of the process was mostly the last part. I have basic knowledge in python and was not familiar with the importation and other jargon. 
 
 ## 4. Time Required
 How much time did it take you to complete Parts 1 and 2? (Please be honest; we are looking for feedback to make sure the tasks are scoped appropriately.)
-> [Your Answer here]
+> 4-6 Hours 

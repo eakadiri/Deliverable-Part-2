@@ -12,7 +12,6 @@ The output of this function should be a number (specifically, an integer).
 Example: “Hello, how are you?” → 4
 """
 def count_words(text):
-	'''
-	@TODO : Add your Implementation of the feature here! Good Luck :)
-	'''
-	return 0
+	x = text.split()
+	
+	return len(x)

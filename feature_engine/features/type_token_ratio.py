@@ -14,7 +14,20 @@ The output of this function should be a number (specifically, a float).
 Example: “Please, oh please can I go to the ball?” → 8 / 9 → 0.889
 """
 def get_word_TTR(text):
-	'''
-	@TODO : Add your Implementation of the feature here! Good Luck :)
-	'''
-	return 0
+	
+	word_list = text.split()
+	unique_list = []
+	duplicate_list = []
+
+	for word in word_list:
+		if word not in unique_list:
+			unique_list.append(word)
+		else:
+			duplicate_list.append(word)
+		
+	
+	print(duplicate_list)
+	print(unique_list)
+		
+
+	return ((len(word_list) - len(duplicate_list))/len(word_list))
